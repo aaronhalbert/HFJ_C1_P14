@@ -1,6 +1,6 @@
-# Created by https://www.gitignore.io/api/intellij+all
+# Created by https://www.gitignore.io/api/intellij
 
-### Intellij+all ###
+### Intellij ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
@@ -54,13 +54,15 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
-### Intellij+all Patch ###
-# Ignores the whole idea folder
-# See https://github.com/joeblau/gitignore.io/issues/186 and https://github.com/joeblau/gitignore.io/issues/360
+### Intellij Patch ###
+# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
 
-.idea/
+# *.iml
+# modules.xml
+# .idea/misc.xml
+# *.ipr
 
-# Mac OS
-.DS_Store
+# Sonarlint plugin
+.idea/sonarlint
 
-# End of https://www.gitignore.io/api/intellij+all
+# End of https://www.gitignore.io/api/intellij
