@@ -60,4 +60,7 @@ fabric.properties
 
 .idea/
 
+# Mac OS
+.DS_Store
+
 # End of https://www.gitignore.io/api/intellij+all
